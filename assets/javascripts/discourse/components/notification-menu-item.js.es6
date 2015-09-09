@@ -4,7 +4,6 @@ export default Ember.Component.extend({
   classNameBindings: [‘new-class’],
 
   link_url: function() {
-
     return ’users/' + Discourse.User.current().username + '/notifications’;
   }.property('link_url')
 });
