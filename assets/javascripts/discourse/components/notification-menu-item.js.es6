@@ -1,5 +1,5 @@
 export default Ember.Component.extend({
-  tagName: 'div',
+  tagName: 'li',
   layoutName: 'components/notification-menu-item',
   classNameBindings: ['new-class'],
   link_url: function() {
